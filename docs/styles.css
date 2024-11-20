@@ -1,0 +1,82 @@
+/* 聊天容器样式 */
+.chat-container {
+  max-width: 98%;
+  /* 最大宽度 */
+  margin: 20px auto;
+  /* 上下边距为20px，水平居中 */
+  padding: 10px;
+  /* 内边距 */
+  background: #f1f1f1;
+  /* 蓝色到浅蓝色渐变 */
+  padding: 20px 20px;
+  /* 调整气泡内边距，上下8px，左右15px */
+  border-radius: 50px;
+  /* 气泡圆角半径 */
+}
+
+/* 聊天消息样式 */
+.chat-message {
+  display: flex;
+  /* 使用弹性盒子布局 */
+  align-items: flex-start;
+  /* 垂直方向顶部对齐 */
+  margin-bottom: 20px;
+  /* 下边距 */
+}
+
+/* 头像样式 */
+.avatar {
+  width: 60px;
+  /* 头像宽度 */
+  height: 60px;
+  /* 头像高度 */
+  border-radius: 50%;
+  /* 圆形头像 */
+  margin-right: 18px;
+  /* 右边距 */
+}
+
+/* 用户头像颜色 */
+.user-avatar {
+  background: linear-gradient(135deg, #2b87d2, #21cbf3);
+  /* 蓝色到浅蓝色渐变 */
+}
+
+/* 机器人头像颜色 */
+.bot-avatar {
+  background: linear-gradient(135deg, #a6b7f0, #3992f8);
+  /* 橙色到黄色渐变 */
+}
+
+/* 昵称样式 */
+.nickname {
+  font-size: 14px; /* 字体大小 */
+  color: #666; /* 字体颜色 */
+  margin-bottom: 5px; /* 下边距 */
+}
+
+/* 气泡样式 */
+.bubble {
+  padding: 0px 16px;
+  /* 调整气泡内边距，上下8px，左右15px */
+  border-radius: 20px;
+  /* 气泡圆角半径 */
+  background: linear-gradient(135deg, #90ec7f, #55d768);
+  /* 橙色到黄色渐变 */
+  position: relative;
+  top: 10px;
+  left: -4px;
+  /* 相对定位 */
+  font-size: 16px;
+  /* 字体大小 */
+  color: #333;
+  /* 字体颜色 */
+}
+
+/* 气泡内文本样式 */
+.bubble p {
+  margin: 15px 0;
+  /* 上下外边距 */
+  line-height: 1;
+  /* 行高 */
+}
